@@ -1,0 +1,244 @@
+   
+            *
+            {
+                box-sizing: border-box;
+            }
+            
+            
+            
+            body
+            {
+                margin: 0px;
+            }
+            
+             nav
+            {
+                background-color: #ffc8dd;
+            }
+            
+            nav ul
+                {
+                    list-style-type: none;
+                    display: inline-flex;
+                    margin: 0px;
+                }
+            
+            nav a
+                {
+                   color: #5e548e;
+                   text-decoration: none;
+                }
+            
+            nav li
+                {
+                    padding: 0.8vw;
+                }
+            
+                
+            nav li:hover
+                        {
+                              background-color: #bde0fe;
+                              border-left: 1px black solid;
+                              border-right: 1px black solid;
+                        }
+            
+            header
+                        {
+                        /* background-image: url('images/ex/Knife.png'),url('images/ex/Knife.png'),url('images/fruit/banana.jpg');*/
+                         background-image: url('images/fruit/banana.jpg');
+                        /* background-size: 5%,5%,cover;*/
+                         background-size: cover;
+                         color: #00bbf9;
+                         width: 100% ;
+                         height: 25vh ;
+    /*顯示方式*/         display: flex;
+                         justify-content: center;
+                         align-items: center;
+                         background-repeat: no-repeat;
+                         background-position: left bottom,right top,center;
+                        }
+                        
+            header h1
+                        {
+                         font-size: 3rem;
+                        }    
+                        
+                     
+                        
+                        
+            .menu
+            {
+                margin: 0px;
+                padding: 0px;
+            }
+            
+            .menu ul
+            {
+               list-style-type: none;
+               padding: 0px;
+               margin: 0px
+            }
+            
+            .menu li
+            {
+                /*margin-bottom: 10px;*/
+                border-bottom: 2px black solid;
+                /*border-radius: 5px;*/
+                padding: 15px;
+                /*background-color: #d8f3dc;*/
+         
+            }
+            
+            
+            .menu a
+            {
+               text-decoration: none; 
+               color: #118ab2; 
+            }
+            
+            .menu li:hover
+            {
+                background-color: #fe7f2d;
+                background-image: url('images/ex/yellow fruit.png');
+                background-size: 10%;
+                background-repeat: no-repeat;
+                background-position: 95%;
+                   
+            }
+            
+            
+            .menu li a:hover
+            {
+                color: white;
+            }
+            
+            .menu video
+            {
+                margin: 10px;
+                width: 95%;
+                border-radius: 5px;
+                border: 2px forestgreen solid;
+                padding: 10px;
+                box-shadow: 2px 2px 3px 3px rgba(100,100,100,0.5);
+            }
+            
+            .menu audio
+            {
+                width: 100%;
+                /*border: 2px black solid;*/
+                
+            }
+            
+            
+         
+            
+             .content
+            {
+                text-align: justify;
+            }
+            
+            .content iframe
+            {
+             width: 100%;
+             border: 2px seagreen solid;
+             border-radius: 5px;
+             
+            }
+            
+            .content #iframeyt
+            {
+                float: left;
+                width: 40%;
+                padding: 3px;
+            }
+            
+            .content #iframefruit
+            {
+                float: left;
+                width: 60%;
+                padding: 3px;
+            }
+            
+            
+            
+            .onself img
+            {
+                width: 95%;
+                /*border-radius: 50%;*/
+                padding: 10px;
+                /*box-shadow: 3px 5px 8px gray;*/
+                box-shadow: 2px 2px 3px 3px rgba(100,100,100,0.5);
+                border-radius: 50%;
+                transition: transform 2s;
+            }
+                                  
+            
+            
+            
+            
+            /*phone*/
+               [class *='col-']
+            {
+                
+                width: 100%;
+                float: left;
+                padding: 2vw;
+            }
+            
+            
+            /*tablet*/
+            @media only screen and (min-width:992px)
+            {
+                
+                .col-m-1{width:8.33%;}
+                .col-m-2{width:16.66%;}
+                .col-m-3{width:25.00%;}
+                .col-m-4{width:33.33%;}
+                .col-m-5{width:41.66%;}
+                .col-m-6{width:50.00%;}
+                .col-m-7{width:58.33%;}
+                .col-m-8{width:66.66%;}
+                .col-m-9{width:75.00%;}
+                .col-m-10{width:83.33%;}
+                .col-m-11{width:91.66%;}
+                .col-m-12{width:100.0%;}
+                
+            }
+            
+            
+            
+            /*PC*/
+            @media only screen and (min-width:1200px)
+            {
+                
+                .col-1{width:8.33%;}
+                .col-2{width:16.66%;}
+                .col-3{width:25.00%;}
+                .col-4{width:33.33%;}
+                .col-5{width:41.66%;}
+                .col-6{width:50.00%;}
+                .col-7{width:58.33%;}
+                .col-8{width:66.66%;}
+                .col-9{width:75.00%;}
+                .col-10{width:83.33%;}
+                .col-11{width:91.66%;}
+                .col-12{width:100.0%;}
+                
+            }
+            
+   
+            
+            footer
+            {
+                position: fixed;
+                left: 0px;
+                bottom: 0px;
+                width: 100%;
+                padding: 8px;
+                background-color: lightgray;
+                color: gray;
+                text-align:center;
+            }
+      
+            
+            
